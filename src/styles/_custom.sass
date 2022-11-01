@@ -2,13 +2,21 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    right: 80%
+    min-width: 111px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 68%
+    right: 76%
+    min-width: 125px
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 48%
+    right: 12%
+    min-width: 111px
 
 
 @keyframes float1
@@ -17,3 +25,12 @@
 
   100%
     transform: translateY(0px)
+.banner-principal
+  .tarjeta.container
+    background-position: left
+  .banner-principal__componente h1, .banner-principal__descripcion p
+    color: black    
+  .banner-principal__row, .banner-principal__img
+    min-height: 506px
+.titulo-principal .titulo-principal__numero span
+  color: black !important

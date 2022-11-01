@@ -5,7 +5,10 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Funcionamiento de testigos de los equipos
+    
+    p.mb-5 Los testigos en las unidades de transporte son pictogramas codificados que están ubicados en el tablero de instrumentos, tienen como objetivo principal dar aviso sobre el funcionamiento de los sistemas y los dispositivos del vehículo y, alertar sobre una falla o avería en los mismos.
+    
 
 </template>
 

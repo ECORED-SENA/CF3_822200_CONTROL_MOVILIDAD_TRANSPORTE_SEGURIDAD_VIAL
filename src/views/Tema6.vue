@@ -99,8 +99,8 @@
     .titulo-sexto.color-acento-contenido
       h5 Tabla 1.
       span Categorías de licencias de conducción
-    .col-xl-10.mx-auto.mb-5
-      table
+    .col-xl-10.mx-auto.mb-5.table-responsive
+      table(style="min-width: 864px")
         tbody
           tr
             td.text-center(rowspan="2" style="width: 12%; border-color: #535353;") #[b Vehículos]

@@ -47,36 +47,37 @@
       span Clasificación de los envases y embalajes
     
     .col-12.col-lg-8.col-xl-6.mx-auto.mb-5
-      table.mb-4
-        tbody
-          tr
-            td.text-center.fw-bold(rowspan="11" style="width: 20%; background-color: #FFD817; border-color: black;") ENVASE Y EMBALAJE
-            td.text-center.fw-bold(rowspan="3" style="width: 30%; background-color: #FFF5C5; border-color: black;") ENVASES
-            td(style="width: 50%; background-color: #D5D5D5; border-color: black;") Primario
-          tr
-            td(style="background-color: #D5D5D5; border-color: black;") Secundario
-          tr
-            td(style="background-color: #D5D5D5; border-color: black;") Terciario
+      .table-responsive.mb-4
+        table(style="min-width: 522px;")
+          tbody
+            tr
+              td.text-center.fw-bold(rowspan="11" style="width: 20%; background-color: #FFD817; border-color: black;") ENVASE Y EMBALAJE
+              td.text-center.fw-bold(rowspan="3" style="width: 30%; background-color: #FFF5C5; border-color: black;") ENVASES
+              td(style="width: 50%; background-color: #D5D5D5; border-color: black;") Primario
+            tr
+              td(style="background-color: #D5D5D5; border-color: black;") Secundario
+            tr
+              td(style="background-color: #D5D5D5; border-color: black;") Terciario
 
-          tr
-            td.text-center.fw-bold(rowspan="3" style="background-color: #FFF5C5; border-color: black;") EMBALAJES
-            td(style="background-color: #D5D5D5; border-color: black;") Primario
-          tr
-            td(style="background-color: #D5D5D5; border-color: black;") Secundario
-          tr
-            td(style="background-color: #D5D5D5; border-color: black;") Terciario
+            tr
+              td.text-center.fw-bold(rowspan="3" style="background-color: #FFF5C5; border-color: black;") EMBALAJES
+              td(style="background-color: #D5D5D5; border-color: black;") Primario
+            tr
+              td(style="background-color: #D5D5D5; border-color: black;") Secundario
+            tr
+              td(style="background-color: #D5D5D5; border-color: black;") Terciario
 
-          tr
-            td.text-center.fw-bold(rowspan="5" style="background-color: #FFF5C5; border-color: black;") CRITERIOS CLASIFICACIÓN
-            td(style="background-color: #D5D5D5; border-color: black;") Según su uso
-          tr
-            td(style="background-color: #D5D5D5; border-color: black;") Según su clasificación
-          tr
-            td(style="background-color: #D5D5D5; border-color: black;") Según su función
-          tr
-            td(style="background-color: #D5D5D5; border-color: black;") Según su destino final
-          tr
-            td(style="background-color: #D5D5D5; border-color: black;") Según su contacto con el producto
+            tr
+              td.text-center.fw-bold(rowspan="5" style="background-color: #FFF5C5; border-color: black;") CRITERIOS CLASIFICACIÓN
+              td(style="background-color: #D5D5D5; border-color: black;") Según su uso
+            tr
+              td(style="background-color: #D5D5D5; border-color: black;") Según su clasificación
+            tr
+              td(style="background-color: #D5D5D5; border-color: black;") Según su función
+            tr
+              td(style="background-color: #D5D5D5; border-color: black;") Según su destino final
+            tr
+              td(style="background-color: #D5D5D5; border-color: black;") Según su contacto con el producto
       .d-flex
         p.mb-5.px-4.py-2(style="background-color: #E8E8E8;") Nota. Tomado de la Aplicación del Decreto 19 de 2012. 
     
@@ -86,6 +87,70 @@
         h4.col.ps-3.mb-0.text-white(data-aos="fade-right") Clasificación de las cargas:
     p.mb-5 están clasificadas en 2 grandes tipos, carga general y carga a granel.
 
+    .col-xl-10.mx-auto.d-flex.flex-wrap.justify-content-center.align-items-center.mb-5
+      .col-lg-6.px-2.mb-3
+        .d-flex.tarjeta-slide.arriba.color-primario(style="aspect-ratio: 50/46; max-width: 494px;" @mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor(style="background-color: #FFF5C5")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h4.text-center.mb-4 Carga general
+              p Esta mercancía o productos a pesar de tener diferentes tamaños se pueden contar por unidades y pueden ir sueltos o agrupados de diversas maneras, así:
+              p.col-10.mx-auto #[b Carga fraccionada:] cuando la carga se transporta en sacos, cajas o paquetes.
+                br
+                br
+                |#[b Carga unitarizada:] la carga va agrupada en paquetes de mayor volumen, en estibas o contenedores.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema7/img-4.jpg')})`}")
+      .col-lg-6.px-2.mb-3
+        .d-flex.tarjeta-slide.arriba.color-primario(style="aspect-ratio: 50/46; max-width: 494px;" )
+          .tarjeta-slide__contenedor(style="background-color: #F8E68C")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h4.text-center.mb-4 Carga a granel
+              p Esta mercancía o productos se transportan sin envase, sin ser empaquetados, en su forma original, como el carbón, la arena, los cereales, etc.  Esta carga se puede clasificar de la siguiente manera:
+              ul.lista-ul.mb-3
+                li
+                  <svg style="max-width: 14px; margin-right: .5rem; margin-top: .3rem;" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                    <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+                  </svg>
+                  p #[b Carga a granel sólida:] el producto es sólido, como las harinas o los cereales.
+                li
+                  <svg style="max-width: 14px; margin-right: .5rem; margin-top: .3rem;" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                    <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+                  </svg>
+                  p #[b Carga a granel líquida:] el producto es líquido, como el agua o el petróleo.
+                li
+                  <svg style="max-width: 14px; margin-right: .5rem; margin-top: .3rem;" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                    <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+                  </svg>
+                  p #[b Carga a granel gaseosa:] el producto se encuentra en estado gaseoso, como el gas.]
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema7/img-5.jpg')})`}")
+      .col-12.px-2
+        .p-4(style="background-color: #FFF5C5")
+          p.fw-bold.mb-3 Otras clasificaciones de las cargas
+          p.mb-4 De acuerdo con otros parámetros se pueden clasificar así:
+          ul.lista-ul.mb-3
+            li
+              <svg style="max-width: 14px; margin-right: .5rem; margin-top: .3rem;" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+              </svg>
+              p #[b Según su volumen en:] pequeñas y medianas (son manipulables manualmente), grandes (requieren manejo de estibas y con montacargas) y cargas extradimensionadas.
+            
+            li
+              <svg style="max-width: 14px; margin-right: .5rem; margin-top: .3rem;" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+              </svg>
+              p #[b Según su peso en:] ligeras (menor a 5 kilogramos), medianas (entre 5 y 25 kilogramos por carga), pesadas (entre 25 kg a 1000 kg) y muy pesadas (superior a 1000 kg).
+            
+            li
+              <svg style="max-width: 14px; margin-right: .5rem; margin-top: .3rem;" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+              </svg>
+              p #[b Según su vida útil:] perecedera (vida útil limitada o con caducidad) y carga imperecedera.
+            
+            li
+              <svg style="max-width: 14px; margin-right: .5rem; margin-top: .3rem;" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+              </svg>
+              p #[b Según su resistencia:] resistentes (permiten el apilamiento y otras cargas encima), cargas ligeras (permiten el apilamiento limitado) y frágiles (manipulación cuidadosa, almacenamiento individual).
     
 </template>
 

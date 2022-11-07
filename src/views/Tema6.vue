@@ -233,7 +233,7 @@
         p.mb-1.py-3.px-4.tarjeta(style="background-color: #F4DE70") Los conductores de servicio particular con edad entre 60 y 80 años deben realizar la renovación de su licencia en 5 años contados a partir de la expedición del Decreto 19 de 2012.
         p.mb-1.py-3.px-4.tarjeta(style="background-color: #FFF5C5") Los conductores de servicio particular con edad superior a 80 años deben realizar la renovación de su licencia 1 año a partir de la expedición del Decreto 19 de 2012.
         p.mb-1.py-3.px-4.tarjeta(style="background-color: #F4DE70") Los conductores de servicio público de edad inferior a 60 años continúan realizando la renovación de su licencia cada 3 años y los conductores con edad superior a 60 años anualmente.
-      img.col-lg-5.ms-lg-auto(src='@/assets/curso/temas/tema6/img-8.svg' style="max-width: 469px")
+      img.col-lg-5.ms-lg-auto(src='@/assets/curso/temas/tema6/img-8.png' style="max-width: 469px")
     .d-flex
       p.mb-5.px-4.py-2(style="background-color: #E8E8E8;") Nota. Tomado de la Aplicación del Decreto 19 de 2012. 
     p.fw-bold.mb-5 La obligatoriedad de renovar la licencia de conducción de acuerdo con el rango de edad y la vigencia contemplada en el Decreto 19 de 2012 es:
@@ -245,11 +245,11 @@
     .tabla-a.color-acento-botones.mb-5 
       table
         thead
-          tr(style="background-color: #F88F05")
-            th(style="border: none; color: white; width: 20%;") RANGO DE EDAD
-            th(style="border: none; color: white; width: 20%;") VIGENCIA DE LA LICENCIA
-            th(style="border: none; color: white; width: 30%;") EDAD EN 2012 AL MOMENTO DE LA EXPEDICIÓN DEL DECRETO
-            th(style="border: none; color: white; width: 30%;") OBLIGACIÓN DE RENOVAR
+          tr(style="background-color: #FFF3BD;")
+            th(style="width: 20%;") RANGO DE EDAD
+            th(style="width: 20%;") VIGENCIA DE LA LICENCIA
+            th(style="width: 30%;") EDAD EN 2012 AL MOMENTO DE LA EXPEDICIÓN DEL DECRETO
+            th(style="width: 30%;") OBLIGACIÓN DE RENOVAR
         tbody
           tr(style="background-color: #FFF5C5")
             td.text-center(rowspan="3") Menor de 60 años
@@ -290,6 +290,7 @@
     .d-flex
       p.mb-5.px-4.py-2(style="background-color: #E8E8E8;") Nota. Tomado de la Aplicación del Decreto 19 de 2012. 
 
+    p.fw-bold.mb-5 De acuerdo con la normativa de las secretarías de movilidad: 
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -305,12 +306,12 @@
       .col-lg-6.col-xl-4.px-2.mb-5
         .tarjeta.p-4.d-flex.flex-wrap.h-100(style="background-color: #DEE4F0")
           div
-            img.mx-auto.mb-3(src='@/assets/curso/temas/tema6/img-card.svg' style="max-width: 117px; margin-top: -57px")
+            img.mx-auto.mb-3(src='@/assets/curso/temas/tema6/img-card-1.svg' style="max-width: 117px; margin-top: -57px")
             p.mb-0 A los vehículos de servicio público y a las motocicletas y similares se les exigirá su primera revisión técnico mecánica y de emisiones contaminantes a los 2 años #[b contados a partir de la fecha de la matrícula.]
       .col-lg-6.col-xl-4.px-2.mb-5
         .tarjeta.p-4.d-flex.flex-wrap.h-100(style="background-color: #DEE4F0")
           div
-            img.mx-auto.mb-3(src='@/assets/curso/temas/tema6/img-card.svg' style="max-width: 117px; margin-top: -57px")
+            img.mx-auto.mb-3(src='@/assets/curso/temas/tema6/img-card-2.svg' style="max-width: 117px; margin-top: -57px")
             p.mb-0 Para efectos de la revisión técnico mecánica a los vehículos de servicio oficial se les aplica las mismas reglas de los vehículos de servicio particular.
 
     .d-flex
@@ -337,4 +338,8 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+table
+  td, th
+    border-color: #000000
+</style>

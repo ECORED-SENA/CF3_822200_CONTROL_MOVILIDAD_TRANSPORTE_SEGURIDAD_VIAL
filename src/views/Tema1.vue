@@ -11,7 +11,7 @@
 
     .d-flex.flex-wrap.align-items-end.mb-5
       .col-xl-6.order-2.order-xl-1.pe-xl-4
-        p.p-3.p-md-4.mb-4 Se debe tener claro qué es un vehículo automotor, que en su concepción es un elemento con un complejo mecánico que se desplaza por sus propios medios y para lograrlo, requiere sistemas y partes que interactúan de forma coordinada.
+        p.p-3.p-md-4.mb-4.tarjeta(style="background-color: #535353; color: white;") Se debe tener claro qué es un vehículo automotor, que en su concepción es un elemento con un complejo mecánico que se desplaza por sus propios medios y para lograrlo, requiere sistemas y partes que interactúan de forma coordinada.
         .bloque-texto-b.p-4(style="background-color: #FFFAF3")
           p También dentro del Código Nacional de Tránsito, en la Ley 769 de 2002 en el Artículo 2 se indica que es
           .bloque-texto-b__texto.d-flex.flex-wrap.mb-4.pe-lg-5
@@ -103,7 +103,7 @@
 
     h4 Clasificación de los motores
 
-    SlyderF.slyder-f-edit.mb-5(columnas="col-lg-6 col-xl-4")
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.p-4(style="background-color: #FFF5C5")
         .row.justify-content-center.mb-3
           .col-11

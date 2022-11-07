@@ -18,6 +18,8 @@
         p Estos elementos son indispensables, pues en las vías y sobre todo cuando las condiciones de luz y de visibilidad no son favorables, se requiere que los equipos de transporte tengan dispositivos que permitan una conducción segura y ser vistos por otros actores viales, estas condiciones de iluminación son fundamentales en la seguridad activa de los vehículos. Además, un buen sistema de iluminación en los vehículos va a permitir iluminar la calzada, observar la señalización, actuar de forma adecuada frente a obstáculos y anticipar frente a otros conductores cambios de dirección de los vehículos. Para activarlos se hace a través del interruptor de control de luces del vehículo.
       img.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(src="@/assets/curso/temas/tema3/img-1.png")
     
+    p.mb-5.fw-bold La iluminación con la que cuentan los vehículos se puede clasificar de la siguiente manera:
+
     .tarjeta.tarjeta--azul.p-4.mb-5(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-2.svg')})`}"
       style="background-repeat: no-repeat; background-size: cover;"

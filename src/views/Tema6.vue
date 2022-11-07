@@ -251,39 +251,39 @@
             th(style="width: 30%;") EDAD EN 2012 AL MOMENTO DE LA EXPEDICIÓN DEL DECRETO
             th(style="width: 30%;") OBLIGACIÓN DE RENOVAR
         tbody
-          tr(style="background-color: #FFF5C5")
+          tr
             td.text-center(rowspan="3") Menor de 60 años
             td.text-center(rowspan="3") 10
             td.text-center 20 años
             td.text-center Cuando cumpla 30 años en 2022
-          tr(style="background-color: #FFF5C5")
+          tr
             td.text-center 55 años
             td.text-center Cuando cumpla 65 años en 2022
-          tr(style="background-color: #FFF5C5")
+          tr
             td.text-center 59 años
             td.text-center Cuando cumpla 65 años en 2018
 
-          tr(style="background-color: #FFF5C5")
+          tr
             td.text-center(rowspan="3") Entre 60 y 80 años
             td.text-center(rowspan="3") 5
             td.text-center 62 años
             td.text-center Cuando cumpla 67 años en 2017
-          tr(style="background-color: #FFF5C5")
+          tr
             td.text-center 65 años
             td.text-center Cuando cumpla 70 años en 2017
-          tr(style="background-color: #FFF5C5")
+          tr
             td.text-center 78 años
             td.text-center Cuando cumpla 81 años en 2015
 
-          tr(style="background-color: #FFF5C5")
+          tr
             td.text-center(rowspan="3") Mayor de 80 años
             td.text-center(rowspan="3") 1
             td.text-center 80 años
             td.text-center Cuando cumpla 81 años en 2013
-          tr(style="background-color: #FFF5C5")
+          tr
             td.text-center 81 años
             td.text-center Cuando cumpla 82 años en 2013
-          tr(style="background-color: #FFF5C5")
+          tr
             td.text-center 83 años
             td.text-center Cuando cumpla 84 años en el 2013
 
@@ -341,5 +341,5 @@ export default {
 <style lang="sass">
 table
   td, th
-    border-color: #000000
+    border-color: #000000 !important
 </style>

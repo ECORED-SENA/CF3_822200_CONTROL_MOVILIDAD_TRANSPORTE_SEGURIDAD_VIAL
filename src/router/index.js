@@ -80,6 +80,12 @@ const router = new VueRouter({
           component: () =>
             import(/* webpackChunkName: "tema9" */ '../views/Tema9.vue'),
         },
+        {
+          path: 'tema10',
+          name: 'tema10',
+          component: () =>
+            import(/* webpackChunkName: "tema10" */ '../views/Tema10.vue'),
+        },
       ],
     },
     {

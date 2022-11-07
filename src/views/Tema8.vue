@@ -95,46 +95,50 @@
       img(src="@/assets/curso/temas/tema8/img-4.png")
       .container-card-hover.container-card-hover-1
         .card-left-edit.p-4
-          p.mb-0 Los rótulos para los vehículos y los contenedores no deberán ser menores de 250 mm x 250 mm.
+          p.mb-0 Las etiquetas para los bultos no deben tener un tamaño menor de 100 mm x 100 mm.
       .container-card-hover.container-card-hover-2
         .card-left-edit.p-4
-          p.mb-0 Los rótulos para los vehículos y los contenedores no deberán ser menores de 250 mm x 250 mm.
+          p.mb-0 Las etiquetas deben tener una línea del mismo color que el símbolo, a 5 mm del borde de las mismas en todo el perímetro.
       .container-card-hover.container-card-hover-3
         .card-left-edit.p-4
           p.mb-0 Los rótulos para los vehículos y los contenedores no deberán ser menores de 250 mm x 250 mm.
       .container-card-hover.container-card-hover-4
         .card-left-edit.p-4
-          p.mb-0 Los rótulos para los vehículos y los contenedores no deberán ser menores de 250 mm x 250 mm.
+          p.mb-0 Se colocarán rótulos en las paredes externas de las unidades de transporte para advertir que las mercancías transportadas son peligrosas y presentan riesgo. Los rótulos corresponderán al riesgo principal de las mercancías peligrosas contenidas en la unidad de transporte.
       .container-card-hover.container-card-hover-5
         .card-left-edit.p-4
-          p.mb-0 Los rótulos para los vehículos y los contenedores no deberán ser menores de 250 mm x 250 mm.
+          p.mb-0 Se deben ubicar rótulos en todas las caras visibles de la unidad de transporte, a una altura que permita su remoción y lectura, uno por cada clase de producto transportado.
       .container-card-hover.container-card-hover-6
         .card-right-edit.p-4
-          p.mb-0 Los rótulos para los vehículos y los contenedores no deberán ser menores de 250 mm x 250 mm.
+          p.mb-0 El método de marcado de la etiqueta, el rótulo y el nombre técnico correcto tienen que aparecer en los bultos de mercancías peligrosas y deberán garantizar que la información sea identificable en los bultos que hayan permanecido tres meses sumergidos en agua.
       .container-card-hover.container-card-hover-7
         .card-right-edit.p-4
-          p.mb-0 Los rótulos para los vehículos y los contenedores no deberán ser menores de 250 mm x 250 mm.
+          p.mb-0 La parte superior de la etiqueta y el rótulo se reservará para el símbolo y en la parte inferior se ubicará el texto, el número de la clase o de la división, y si es el caso, la letra del grupo de compatibilidad de la mercancía peligrosa.
       .container-card-hover.container-card-hover-8
         .card-left-edit.p-4
-          p.mb-0 Los rótulos para los vehículos y los contenedores no deberán ser menores de 250 mm x 250 mm.
+          p.mb-0 Los símbolos, los textos y los números deberán imprimirse en negro en todas las etiquetas y rótulos, excepto en: 
+            br
+            |a) Las etiquetas y rótulos de la clase 8, en las que el texto y el número de la clase deben figurar en blanco. 
+            br
+            |b) Las etiquetas y rótulos con fondo rojo, verde o azul, en las que pueden figurar en blanco.
       .container-card-hover.container-card-hover-9
         .card-left-edit.p-4
-          p.mb-0 Los rótulos para los vehículos y los contenedores no deberán ser menores de 250 mm x 250 mm.
+          p.mb-0 Todas las etiquetas y los rótulos deben poderse exponer a la intemperie, sin degradación notable.
       .container-card-hover.container-card-hover-10
         .card-left-edit.p-4
-          p.mb-0 Los rótulos para los vehículos y los contenedores no deberán ser menores de 250 mm x 250 mm.
+          p.mb-0 Las etiquetas y los rótulos deben colocarse sobre un fondo de color que contraste con ellos.
       .container-card-hover.container-card-hover-11
         .card-left-edit.p-4
-          p.mb-0 Los rótulos para los vehículos y los contenedores no deberán ser menores de 250 mm x 250 mm.
+          p.mb-0 En lo posible el rótulo como la etiqueta deben contener el texto indicativo de la clase a la cual pertenecen, por ejemplo, líquido inflamable.
       .container-card-hover.container-card-hover-12
         .card-left-edit.p-4
-          p.mb-0 Los rótulos para los vehículos y los contenedores no deberán ser menores de 250 mm x 250 mm.
+          p.mb-0 Cuando dentro de una misma carga o cargas adicionales van incluidos dos o más materiales de diferente clase, se deberá colocar un número igual de etiquetas o rótulos de acuerdo con las clases de peligros.
       .container-card-hover.container-card-hover-13
         .card-right-edit.p-4
-          p.mb-0 Los rótulos para los vehículos y los contenedores no deberán ser menores de 250 mm x 250 mm.
+          p.mb-0 Si la mercancía embalada puede clasificarse en más de una clase la carga deberá portar una etiqueta o rótulo por cada una de las clases en que se pueda agrupar el material, por ejemplo, el ácido acético, su riesgo primario es corrosivo y el riesgo secundario es inflamable.
       .container-card-hover.container-card-hover-14
         .card-right-edit.p-4
-          p.mb-0 Los rótulos para los vehículos y los contenedores no deberán ser menores de 250 mm x 250 mm.
+          p.mb-0 Las etiquetas y los rótulos de las divisiones 1.4, 1.5 y 1.6 llevarán en la mitad superior el número de la división; en la mitad inferior la letra del grupo de compatibilidad y en el ángulo inferior el número de la clase. Los números deben tener aproximadamente 30 mm de altura x 5 mm de ancho (en las etiquetas de 100 mm x 100 mm).
 
     p.mb-5.pb-5 #[b Grupos de compatibilidad:] las letras identifican los explosivos que están considerados compatibles, es decir, si pueden ser transportados juntos sin aumentar significativamente, ya sea la probabilidad de un incidente o por una cantidad determinada, la magnitud de los efectos de tal incidente.
 
@@ -213,53 +217,29 @@
 
     .d-flex.flex-wrap.align-items-center.mb-5
       AcordionA.col-xl-7.order-2.order-xl-1.pe-xl-4(tipo="a" clase-tarjeta="tarjeta")
-        .row(titulo="Titulo item 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        .row(titulo="Manifiesto de carga")
+          .col-12.mb-4.mb-md-0
+            p En este documento se ampara ante las autoridades de tránsito el transporte de mercancías y, por ello, debe ser portado por el conductor durante todo el recorrido. Es importante tener en cuenta que la vigencia de este es solo por cada recorrido que haga, es decir, cada nuevo trayecto requiere su propio manifiesto de carga expedido por la empresa transportadora, especificando los pormenores de la carga transportada, el vehículo y el valor del flete. En caso de que no lo lleve consigo recibirá un comparendo establecido por la Superintendencia de Puertos y Transporte.
         
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+        .row(titulo="Hoja de seguridad")
+          .col-12.mb-4.mb-md-0
+            p es el documento que describe los riesgos de un material peligroso y suministra información sobre cómo se puede manipular, usar y almacenar el material con seguridad. Debe presentar un resumen de la información de seguridad sobre el material, debe contener información sobre el producto químico e información sobre el proveedor, los componentes químicos o peligrosos, identificación de los peligros, primeros auxilios, medidas para apagar incendios, medidas cuando hay un escape accidental, manipulación y almacenamiento, controles de exposición, protección personal, propiedades físicas, químicas y reactividad. También incluye información toxicológica sobre disposición, transporte y reglamentación. Para su elaboración se deben tener en cuenta los parámetros establecidos en la Norma Técnica Colombiana NTC 4435, este documento no es de porte obligatorio por parte del conductor durante la movilización de la mercancía peligrosa. Como regla general, el lenguaje usado en las hojas de seguridad para los materiales peligrosos debe ser comprensible para la audiencia más amplia.
         
-        .row(titulo="Titulo item 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        .row(titulo="Planilla para el transporte de sustancias de uso restringido")
+          .col-12.mb-4.mb-md-0
+            p creada mediante la Resolución 4093 de diciembre de 1991 y la Resolución 3700 de 2001, este documento expedido por el Ministerio de Transporte autoriza a un vehículo automotor de carga para que realice el transporte de sustancias catalogadas de uso restringido por la Dirección Nacional de Estupefacientes, ya que se utilizan como precursores químicos para la producción de narcóticos. Esta planilla la solicitará el representante legal del propietario de la sustancia, cumpliendo los requisitos establecidos en la normatividad anteriormente mencionada (ver marco legal).
         
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+        .row(titulo="Remesa terrestre de carga")
+          .col-12.mb-4.mb-md-0
+            p En este documento el cliente o destinatario deja constancia del recibido de la mercancía, con la opción de anotar observaciones sobre el estado en el que llega la carga, ya sean daños o faltantes y debe contar con la firma y sello del cliente.
         
-        .row(titulo="Titulo item 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        .row(titulo="Registro nacional de transporte de carga")
+          .col-12.mb-4.mb-md-0
+            p Este documento reemplaza a la tarjeta de operación y es el Ministerio de Transporte el ente encargado de registrar a todo propietario o conductor de un vehículo que preste el servicio de carga.
         
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-        
-        .row(titulo="Titulo item 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-        
-        .row(titulo="Titulo item 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-        
-        .row(titulo="Titulo item 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+        .row(titulo="Tarjeta de emergencia")
+          .col-12.mb-4.mb-md-0
+            p es el documento que contiene información básica sobre la identificación del material peligroso y datos del fabricante, identificación de peligros, protección personal y control de exposición, medidas de primeros auxilios, medidas para la extinción de incendios, medidas para el vertimiento accidental, estabilidad y reactividad e información sobre el transporte. Este documento es de porte obligatorio para el conductor que transporta mercancías peligrosas; para su elaboración se debe tener en cuenta los parámetros establecidos en la Norma Técnica Colombiana NTC 4532. Se consideran dos usos principales de las tarjetas de emergencia para el transporte de materiales.
         
       img.col-xl-5.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto(src='@/assets/curso/temas/tema8/img-14.png' style="max-width: 505px")
 
@@ -309,32 +289,51 @@
             p.w-100.mb-0 #[b Sección 7:] medidas en caso de vertidos accidental.
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta")
-      .row(titulo="Titulo item 1")
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+      .row(titulo="Plan nacional de contingencias")
+        .col-12.mb-4.mb-md-0
+          p las exigencias del Decreto 1609 son precisas y demandantes, este se debe acoplar con el PNC (Plan Nacional de Contingencias), de acuerdo con el Artículo 8 del Decreto 321 de 1999: los lineamientos, principios, facultades y organizaciones establecidos en el PNC deberán ser incorporados en los planes de contingencias de todas las personas naturales y jurídicas, públicas o privadas, que exploren, investiguen, exploten, produzcan, almacenen, transporten, comercialicen o efectúen cualquier manejo de hidrocarburos, derivados o sustancias nocivas, o que tengan bajo su responsabilidad el control y prevención de los derrames en aguas marinas, fluviales o lacustres. Dentro de las premisas básicas del PNC está la acción participativa, en la que se establecen las responsabilidades y los compromisos de orden sectorial, local, regional y nacional para las autoridades e industria, que debe manejarse con los criterios de participación y concertación. Se debe contar con planes de contingencia locales o de ayuda para enfrentar el máximo nivel de riesgo probable. Los comités locales y regionales para la prevención y la atención de desastres apoyarán complementariamente las actividades de respuesta, previstas en ellos.
       
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+      .row(titulo="Requisitos generales para el transporte por carretera de mercancías peligrosas")
+        .col-12.mb-4.mb-md-0
+          ul.lista-ul.col-xl-11.mx-auto.mb-0
+            li.mb-0
+              <svg style="max-width: 14px; margin-right: .5rem; margin-top: .3rem;" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+              </svg>
+              p.mb-0 Ningún vehículo automotor que transporte mercancías peligrosas podrá transitar por las vías públicas con carga que sobresalga por su extremo delantero.
+            
+            li.mb-0
+              <svg style="max-width: 14px; margin-right: .5rem; margin-top: .3rem;" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+              </svg>
+              p.mb-0 Todos los vehículos que transporten materiales peligrosos (materiales perjudiciales que durante la fabricación, manejo, transporte, almacenamiento o uso puedan generar o desprender polvos, humos, gases, líquidos, vapores o fibras infecciosas, irritantes, inflamables, explosivos, corrosivos, asfixiantes, tóxicos o de otra naturaleza peligrosa, o radiaciones ionizantes en cantidades que puedan afectar la salud de las personas que entran en contacto con estas, o que causen daño material) en contenedores por las vías públicas del territorio nacional deben fijarlos al vehículo mediante el uso de dispositivos de sujeción utilizados especialmente para dicho fin, de tal manera que garanticen la seguridad y la estabilidad de la carga durante su transporte.
+            li.mb-0
+              <svg style="max-width: 14px; margin-right: .5rem; margin-top: .3rem;" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+              </svg>
+              p.mb-0 Cada contenedor debe estar asegurado al vehículo por los dispositivos necesarios, los cuales estarán dispuestos, como mínimo, en cada una de las cuatro esquinas del contenedor.
+            li.mb-0
+              <svg style="max-width: 14px; margin-right: .5rem; margin-top: .3rem;" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+              </svg>
+              p.mb-0 Cuando un cargamento incluya mercancías no peligrosas y mercancías peligrosas que sean compatibles, estas deben ser estibadas separadamente.
+            li.mb-0
+              <svg style="max-width: 14px; margin-right: .5rem; margin-top: .3rem;" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+              </svg>
+              p.mb-0 Para el transporte de MP se debe cumplir con los requisitos mínimos tales como: la carga en el vehículo debe estar debidamente acomodada, estibada, apilada, sujeta y cubierta, de tal forma que no represente peligro para la vida de las personas y el medioambiente; que se arrastre en la vía, no caiga sobre esta, no interfiera la visibilidad del conductor, no comprometa la estabilidad o conducción del vehículo, no oculte las luces, incluidas las de frenado, direccionales y las de posición, así como tampoco los dispositivos y rótulos de identificación reflectivos y las placas de identificación del número de las Naciones Unidas UN de la mercancía peligrosa transportada.
+            li.mb-0
+              <svg style="max-width: 14px; margin-right: .5rem; margin-top: .3rem;" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
+                <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
+              </svg>
+              p.mb-0 La clasificación y designación, las condiciones generales para el transporte, así como las condiciones específicas para el transporte de mercancías peligrosas establecidas en cada Norma Técnica NTC son de obligatorio cumplimiento.
       
-      .row(titulo="Titulo item 1")
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-      
-      .row(titulo="Titulo item 1")
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+      .row(titulo="<em>Kit</em> de emergencia")
+        .col-12.mb-4.mb-md-0
+          p como se anotó anteriormente, la legislación exige que todos los vehículos que transporten materiales peligrosos deben dotarse de los elementos necesarios que permitan atender un derrame. Este #[em kit] puede constar de material absorbente, pala no metálica, diques de contención (los cuales pueden construirse con los absorbentes), un recipiente para recolectar el desecho y cinta demarcadora para aislar la zona del derrame. Algunas empresas transportadoras utilizan tela asfáltica para evitar que el material derramado sobre la grama se absorba.
     
     .d-flex.flex-wrap.align-items-center
-      img.mb-4.mb-xl-0.col-xl-5(src='@/assets/curso/temas/tema8/img-15.png' style="max-width: 505px;")
+      img.mb-4.mb-xl-0.col-xl-5.mx-auto(src='@/assets/curso/temas/tema8/img-15.png' style="max-width: 505px;")
       p.col-xl-7.mb-0.ps-xl-4 Los elementos de protección personal no hacen parte del kit, pero deben incluirse en el equipo del vehículo. 
         br
         br

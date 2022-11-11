@@ -10,10 +10,10 @@
     p.mb-5 El avance tecnológico que se da por los fabricantes de vehículos en materia de seguridad vial está orientado a proteger la vida del conductor, de manera que la seguridad activa y pasiva se clasifica básicamente en dos componentes:
 
     TabsB.color-acento-contenido.mb-5
-      .py-4.py-md-5(titulo="Seguridad Activa" :icono="require('@/assets/curso/temas/tema4/p-1.svg')")
+      .py-4.py-md-5(titulo="Seguridad activa" :icono="require('@/assets/curso/temas/tema4/p-1.svg')")
         .row.col-xl-11.mx-auto
           .col-lg-7.order-2.order-lg-1
-            h4 Seguridad Activa
+            h4 Seguridad activa
             p Son elementos que proporcionan a los equipos de transporte mayor eficacia y mejor comportamiento en estabilidad, todos estos actúan antes de que se produzca un accidente, siempre tratando de evitar que este ocurra. Entre los elementos tenemos:
             ul.lista-ul.mb-3
               li
@@ -50,11 +50,11 @@
             figure
               img(src='@/assets/curso/temas/tema4/img-1.png')
 
-      .py-4.py-md-5(titulo="Seguridad Pasiva" :icono="require('@/assets/curso/temas/tema4/p-1.svg')")
+      .py-4.py-md-5(titulo="Seguridad pasiva" :icono="require('@/assets/curso/temas/tema4/p-1.svg')")
         .row.col-xl-11.mx-auto
           .col-lg-7.order-2.order-lg-1
-            h4 Seguridad Pasiva
-            p Esta tecnología reúne a todos aquellos elementos que reducen los daños al mínimo cuando es inevitable los accidentes ocurra. Entre los elementos tenemos:
+            h4 Seguridad pasiva
+            p Esta tecnología reúne a todos aquellos elementos que reducen los daños al mínimo cuando es inevitable que los accidentes ocurran. Entre los elementos tenemos:
             ul.lista-ul.mb-3
               li
                 <svg style="max-width: 14px; margin-right: .5rem; margin-top: .3rem;" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
@@ -65,7 +65,7 @@
                 <svg style="max-width: 14px; margin-right: .5rem; margin-top: .3rem;" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
                   <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
                 </svg>
-                | Los Airbags. Chasis y Carrocería.
+                | Los airbags. Chasis y carrocería.
               li
                 <svg style="max-width: 14px; margin-right: .5rem; margin-top: .3rem;" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
                   <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>

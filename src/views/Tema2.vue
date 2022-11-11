@@ -39,7 +39,7 @@
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema2/sl1-3.png')
-        h4.text-center Circulo entre paréntesis con un signo de admiración en medio
+        h4.text-center Círculo entre paréntesis con un signo de admiración en medio
         p Este testigo es uno de los que más debe tenerse presente, es un aviso sobre la falla en el sistema de frenos o también puede mostrar que está transitando con el freno de mano puesto.
       
       .tarjeta.w-100.p-4(style="background-color: #FFF5C5")
@@ -78,8 +78,8 @@
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema2/sl1-1.png')
-        h4.text-center Circulo con líneas a los lados
-        p Este dibujo es informa al piloto sobre el desgaste de las pastillas de freno.
+        h4.text-center Círculo con líneas a los lados
+        p Este dibujo informa al piloto sobre el desgaste de las pastillas de freno.
       
       .tarjeta.w-100.p-4(style="background-color: #FFF5C5")
         .row.justify-content-center.mb-3
@@ -92,7 +92,7 @@
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema2/sl1-3.png')
-        h4.text-center Circulo con las letras ABS en el interior
+        h4.text-center Círculo con las letras ABS en el interior
         p Anuncia un fallo en el sistema de frenos ABS.
       
       .tarjeta.w-100.p-4(style="background-color: #FFF5C5")

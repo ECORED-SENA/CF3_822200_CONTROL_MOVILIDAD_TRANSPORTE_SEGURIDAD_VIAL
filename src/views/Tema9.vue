@@ -18,7 +18,7 @@
         .row.flex-wrap.col-xl-11.mx-auto
           .col-lg-6.mb-4.mb-md-0.pt-3.order-2.order-lg-1
             h4 Transporte marítimo 
-            p Su superficie deslizante es el mar y se realiza mediante barcos de cargamento y otras naves de características similares. Existe una división y es el transporte fluvial y el cabotaje. Es el transporte más económico por su beneficio costo / volumen.
+            p Su superficie deslizante es el mar y se realiza mediante barcos de carga y otras naves de características similares. Existe una división y es el transporte fluvial y el cabotaje. Es el transporte más económico por su beneficio costo / volumen.
           .col-lg-6.order-1.order-lg-2.mb-4.mb-lg-0
             figure
               img.mx-auto(src='@/assets/curso/temas/tema9/img-1.png' style="max-width: 537px")

@@ -151,15 +151,15 @@ export default {
     ],
   },
   complementario: [
-    {
-      tema:
-        'Características y componentes del equipo de prevención y seguridad (Artículo 30 Ley 769 de 2002)',
-      referencia:
-        'Ley 769 de 2002. [Poder Público - Rama Legislativa].  Por la cual se expide el Código Nacional de Tránsito Terrestre y se dictan otras disposiciones. Agosto 6 de 2002.',
-      tipo: 'Ley',
-      link:
-        'https://www.movilidadbogota.gov.co/web/sites/default/files/ley-769-de-2002-codigo-nacional-de-transito_3704_0.pdf',
-    },
+    // {
+    //   tema:
+    //     'Características y componentes del equipo de prevención y seguridad (Artículo 30 Ley 769 de 2002)',
+    //   referencia:
+    //     'Ley 769 de 2002. [Poder Público - Rama Legislativa].  Por la cual se expide el Código Nacional de Tránsito Terrestre y se dictan otras disposiciones. Agosto 6 de 2002.',
+    //   tipo: 'Ley',
+    //   link:
+    //     'https://www.movilidadbogota.gov.co/web/sites/default/files/ley-769-de-2002-codigo-nacional-de-transito_3704_0.pdf',
+    // },
     {
       tema:
         'Características, tipos, clase y vigencia de documentos de la operación, vehículo y conductor',
@@ -335,6 +335,11 @@ export default {
         cargo: 'Responsable del equipo',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Eugenia Mejía López',
+        cargo: 'Validación Contenido',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Zuleidy María Ruíz Torres',

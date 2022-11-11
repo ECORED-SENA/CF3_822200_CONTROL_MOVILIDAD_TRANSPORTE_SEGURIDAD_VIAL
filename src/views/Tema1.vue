@@ -33,7 +33,7 @@
         .row.flex-wrap.col-xl-11.mx-auto
           .col-lg-6.mb-4.mb-md-0.pt-3.order-2.order-lg-1
             h4 Sistema del motor
-            p Está conformado por un dispositivo que es el motor con una serie de accesorios que transforman la energía eléctrica, cinética o química en energía mecánica de movimiento, energía térmica o de rotación a través de la combustión y una seria de mezclas de combustible con agua, lo que permite al final que los vehículos se desplacen.
+            p Está conformado por un dispositivo que es el motor con una serie de accesorios que transforman la energía eléctrica, cinética o química en energía mecánica de movimiento, energía térmica o de rotación a través de la combustión y una serie de mezclas de combustible con agua, lo que permite al final que los vehículos se desplacen.
           .col-lg-6.order-1.order-lg-2.mb-4.mb-lg-0
             figure
               img.mx-auto(src='@/assets/curso/temas/tema1/img-3.png' style="max-width: 537px")
@@ -84,7 +84,7 @@
         .row.flex-wrap.col-xl-11.mx-auto
           .col-lg-6.mb-4.mb-md-0.pt-3.order-2.order-lg-1
             h4 Sistema de frenos
-            p Permite la reducción la fuerza de inercia de las ruedas a través de la fricción. Este sistema es muy importante en términos de seguridad, pero este proceso implica una alta transformación de energía mecánica en energía calórica, en donde la mayor parte es producida en las llantas delanteras.  
+            p Permite la reducción de la fuerza de inercia de las ruedas a través de la fricción. Este sistema es muy importante en términos de seguridad, pero este proceso implica una alta transformación de energía mecánica en energía calórica, en donde la mayor parte es producida en las llantas delanteras.  
               br
               br
               |Actualmente, se encuentran frenos de disco y un poco más en desuso los frenos de tambor. Las áreas de contacto son los discos, pastillas o bandas y campanas, además de la fricción generada entre el suelo y el neumático.

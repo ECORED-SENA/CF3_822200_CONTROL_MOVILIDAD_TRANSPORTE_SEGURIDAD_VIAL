@@ -26,33 +26,39 @@
       TabsA.color-acento-contenido.col-xl-8.order-2.order-xl-1
         .d-flex.flex-wrap(titulo="División 1.1")
           .pe-md-4
-            .tarjeta.p-4.p-md-5(style="background-color: #DEE4F0")
-              h4 División 1.2
-              p Sustancias y artículos que presentan un riesgo de explosión de proyección; pero no un riesgo de explosión de toda la masa.
+            .tarjeta.p-4.p-md-5.w-100(style="background-color: #DEE4F0")
+              h4 División 1.1
+              p Sustancias y artículos que presentan un riesgo de explosión de toda la masa.
         
         .d-flex.flex-wrap(titulo="División 1.2")
           .pe-md-4
-            .tarjeta.p-4.p-md-5(style="background-color: #DEE4F0")
+            .tarjeta.p-4.p-md-5.w-100(style="background-color: #DEE4F0")
               h4 División 1.2
               p Sustancias y artículos que presentan un riesgo de explosión de proyección; pero no un riesgo de explosión de toda la masa.
         
         .d-flex.flex-wrap(titulo="División 1.3")
           .pe-md-4
-            .tarjeta.p-4.p-md-5(style="background-color: #DEE4F0")
-              h4 División 1.2
-              p Sustancias y artículos que presentan un riesgo de explosión de proyección; pero no un riesgo de explosión de toda la masa.
+            .tarjeta.p-4.p-md-5.w-100(style="background-color: #DEE4F0")
+              h4 División 1.3
+              p Sustancias y artículos que presentan un riesgo de incendio y que se produzcan pequeños efectos de onda de choque o proyección, o ambos efectos; pero no un riesgo de explosión de toda la masa.
         
         .d-flex.flex-wrap(titulo="División 1.4")
           .pe-md-4
-            .tarjeta.p-4.p-md-5(style="background-color: #DEE4F0")
-              h4 División 1.2
-              p Sustancias y artículos que presentan un riesgo de explosión de proyección; pero no un riesgo de explosión de toda la masa.
+            .tarjeta.p-4.p-md-5.w-100(style="background-color: #DEE4F0")
+              h4 División 1.4
+              p Sustancias y artículos que no presentan ningún riesgo considerable.
         
         .d-flex.flex-wrap(titulo="División 1.5")
           .pe-md-4
+            .tarjeta.p-4.p-md-5.w-100(style="background-color: #DEE4F0")
+              h4 División 1.5
+              p Sustancias muy sensibles; agentes explosivos.
+
+        .d-flex.flex-wrap(titulo="División 1.6")
+          .pe-md-4
             .tarjeta.p-4.p-md-5(style="background-color: #DEE4F0")
-              h4 División 1.2
-              p Sustancias y artículos que presentan un riesgo de explosión de proyección; pero no un riesgo de explosión de toda la masa.
+              h4 División 1.6
+              p Sustancias muy sensibles; agentes explosivos.
       img.col-xl-4.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto(src="@/assets/curso/temas/tema8/img-2.png")
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
@@ -147,49 +153,49 @@
         .tarjeta.p-4.d-flex.flex-wrap.h-100(style="background-color: #FFF5C5")
           .d-flex.flex-wrap.mb-auto.justify-content-center.w-100
             img.mx-auto.mb-3(src='@/assets/curso/temas/tema8/img-5.svg' style="max-width: 96px; margin-top: -70px")
-            p.w-100.mb-0 sustancias que se espera que exploten en masa, que detonan muy pronto después de que el fuego las alcanza.
+            p.w-100.mb-0 Sustancias que se espera que exploten en masa, que detonen muy pronto después de que el fuego las alcancen.
 
       .col-md-6.col-lg-4.col-xl-3.px-2.mb-5.pb-4
         .tarjeta.p-4.d-flex.flex-wrap.h-100(style="background-color: #FFF5C5")
           .d-flex.flex-wrap.mb-auto.justify-content-center.w-100
             img.mx-auto.mb-3(src='@/assets/curso/temas/tema8/img-6.svg' style="max-width: 96px; margin-top: -70px")
-            p.w-100.mb-0 sustancias que se encienden inmediatamente y se queman violentamente sin explotar necesariamente. 
+            p.w-100.mb-0 Sustancias que se encienden inmediatamente y se queman violentamente sin explotar necesariamente. 
 
       .col-md-6.col-lg-4.col-xl-3.px-2.mb-5.pb-4
         .tarjeta.p-4.d-flex.flex-wrap.h-100(style="background-color: #FFF5C5")
           .d-flex.flex-wrap.mb-auto.justify-content-center.w-100
             img.mx-auto.mb-3(src='@/assets/curso/temas/tema8/img-7.svg' style="max-width: 96px; margin-top: -70px")
-            p.w-100.mb-0 sustancias que pueden explotar en masa acompañadas por un estallido y con peligro de fragmentos; pero que pueden estar expuestas al fuego por algún tiempo antes de explotar.
+            p.w-100.mb-0 Sustancias que pueden explotar en masa acompañadas por un estallido y con peligro de fragmentos; pero que pueden estar expuestas al fuego por algún tiempo antes de explotar.
 
       .col-md-6.col-lg-4.col-xl-3.px-2.mb-5.pb-4
         .tarjeta.p-4.d-flex.flex-wrap.h-100(style="background-color: #FFF5C5")
           .d-flex.flex-wrap.mb-auto.justify-content-center.w-100
             img.mx-auto.mb-3(src='@/assets/curso/temas/tema8/img-8.svg' style="max-width: 96px; margin-top: -70px")
-            p.w-100.mb-0 sustancias que arden sin peligro de explosión masiva y que despiden humo muy denso con efectos tóxicos en ciertos casos. 
+            p.w-100.mb-0 Sustancias que arden sin peligro de explosión masiva y que despiden humo muy denso con efectos tóxicos en ciertos casos. 
 
       .col-md-6.col-lg-4.col-xl-3.px-2.mb-5.mx-auto.pb-4
         .tarjeta.p-4.d-flex.flex-wrap.h-100(style="background-color: #FFF5C5")
           .d-flex.flex-wrap.mb-auto.justify-content-center.w-100
             img.mx-auto.mb-3(src='@/assets/curso/temas/tema8/img-9.svg' style="max-width: 96px; margin-top: -70px")
-            p.w-100.mb-0 sustancias que contienen materiales tóxicos.
+            p.w-100.mb-0 Sustancias que contienen materiales tóxicos.
 
       .col-md-6.col-lg-4.col-xl-3.px-2.mb-5.pb-4
         .tarjeta.p-4.d-flex.flex-wrap.h-100(style="background-color: #FFF5C5")
           .d-flex.flex-wrap.mb-auto.justify-content-center.w-100
             img.mx-auto.mb-3(src='@/assets/curso/temas/tema8/img-10.svg' style="max-width: 96px; margin-top: -70px")
-            p.w-100.mb-0 sustancias que presentan un riesgo especial y que pueden activarse ya sea por el aire (pirofórico) o por el agua.
+            p.w-100.mb-0 Sustancias que presentan un riesgo especial y que pueden activarse ya sea por el aire (pirofórico) o por el agua.
 
       .col-md-6.col-lg-4.col-xl-3.px-2.mb-5.pb-4
         .tarjeta.p-4.d-flex.flex-wrap.h-100(style="background-color: #FFF5C5")
           .d-flex.flex-wrap.mb-auto.justify-content-center.w-100
             img.mx-auto.mb-3(src='@/assets/curso/temas/tema8/img-11.svg' style="max-width: 96px; margin-top: -70px")
-            p.w-100.mb-0 artículos que contienen solamente sustancias detonantes extremadamente insensibles y que demuestran una insignificante probabilidad de iniciación o propagación. 
+            p.w-100.mb-0 Artículos que contienen solamente sustancias detonantes extremadamente insensibles y que demuestran una insignificante probabilidad de iniciación o propagación. 
 
       .col-md-6.col-lg-4.col-xl-3.px-2.mb-5.pb-4
         .tarjeta.p-4.d-flex.flex-wrap.h-100(style="background-color: #FFF5C5")
           .d-flex.flex-wrap.mb-auto.justify-content-center.w-100
             img.mx-auto.mb-3(src='@/assets/curso/temas/tema8/img-12.svg' style="max-width: 96px; margin-top: -70px")
-            p.w-100.mb-0 sustancias empacadas que, si se inician accidentalmente, producen efectos que usualmente están confinados a los alrededores donde se encuentran.
+            p.w-100.mb-0 Sustancias empacadas que, si se inician accidentalmente, producen efectos que usualmente están confinados a los alrededores donde se encuentran.
     .tarjeta.p-4.py-lg-5.mb-5(style="background-color: #F3F9FF")
       ul.lista-ul.col-xl-11.mx-auto.mb-0
         li.mb-0
@@ -213,7 +219,7 @@
       p.mb-0.d-flex.align-items-center.order-2.order-lg-1.col-lg-6.p-4.p-md-5(style="background-color: #DEE4F0") Normalmente para el transporte de materiales peligrosos el número UN se coloca debajo del rombo o pictograma dentro de un recuadro naranja con números escritos en negro. Este rótulo se ubicará en las caras visibles de la unidad de transporte y la parte delantera de la cabina del vehículo de transporte de carga, por ejemplo, ácido acético según el código UN en unidades de transporte.
       img.col-lg-6.order-1.order-lg-2(src='@/assets/curso/temas/tema8/img-13.svg')
     
-    p.mb-5.col-lg-8 Documentos: En términos generales, los documentos marítimos, aéreos, terrestres, fluviales o ferroviarios, que el transportador respectivo, el agente de carga internacional o el operador de transporte multimodal entrega como certificación del contrato de transporte y recibo de la mercancía al consignatario, a continuación se relacionan algunos de ellos: 
+    p.mb-5.col-lg-8 Documentos: en términos generales, los documentos marítimos, aéreos, terrestres, fluviales o ferroviarios, que el transportador respectivo, el agente de carga internacional o el operador de transporte multimodal entrega como certificación del contrato de transporte y recibo de la mercancía al consignatario, a continuación se relacionan algunos de ellos: 
 
     .d-flex.flex-wrap.align-items-center.mb-5
       AcordionA.col-xl-7.order-2.order-xl-1.pe-xl-4(tipo="a" clase-tarjeta="tarjeta")
@@ -223,11 +229,11 @@
         
         .row(titulo="Hoja de seguridad")
           .col-12.mb-4.mb-md-0
-            p es el documento que describe los riesgos de un material peligroso y suministra información sobre cómo se puede manipular, usar y almacenar el material con seguridad. Debe presentar un resumen de la información de seguridad sobre el material, debe contener información sobre el producto químico e información sobre el proveedor, los componentes químicos o peligrosos, identificación de los peligros, primeros auxilios, medidas para apagar incendios, medidas cuando hay un escape accidental, manipulación y almacenamiento, controles de exposición, protección personal, propiedades físicas, químicas y reactividad. También incluye información toxicológica sobre disposición, transporte y reglamentación. Para su elaboración se deben tener en cuenta los parámetros establecidos en la Norma Técnica Colombiana NTC 4435, este documento no es de porte obligatorio por parte del conductor durante la movilización de la mercancía peligrosa. Como regla general, el lenguaje usado en las hojas de seguridad para los materiales peligrosos debe ser comprensible para la audiencia más amplia.
+            p Es el documento que describe los riesgos de un material peligroso y suministra información sobre cómo se puede manipular, usar y almacenar el material con seguridad. Debe presentar un resumen de la información de seguridad sobre el material, debe contener información sobre el producto químico e información sobre el proveedor, los componentes químicos o peligrosos, identificación de los peligros, primeros auxilios, medidas para apagar incendios, medidas cuando hay un escape accidental, manipulación y almacenamiento, controles de exposición, protección personal, propiedades físicas, químicas y reactividad. También incluye información toxicológica sobre disposición, transporte y reglamentación. Para su elaboración se deben tener en cuenta los parámetros establecidos en la Norma Técnica Colombiana NTC 4435, este documento no es de porte obligatorio por parte del conductor durante la movilización de la mercancía peligrosa. Como regla general, el lenguaje usado en las hojas de seguridad para los materiales peligrosos debe ser comprensible para la audiencia más amplia.
         
         .row(titulo="Planilla para el transporte de sustancias de uso restringido")
           .col-12.mb-4.mb-md-0
-            p creada mediante la Resolución 4093 de diciembre de 1991 y la Resolución 3700 de 2001, este documento expedido por el Ministerio de Transporte autoriza a un vehículo automotor de carga para que realice el transporte de sustancias catalogadas de uso restringido por la Dirección Nacional de Estupefacientes, ya que se utilizan como precursores químicos para la producción de narcóticos. Esta planilla la solicitará el representante legal del propietario de la sustancia, cumpliendo los requisitos establecidos en la normatividad anteriormente mencionada (ver marco legal).
+            p Creada mediante la Resolución 4093 de diciembre de 1991 y la Resolución 3700 de 2001, este documento expedido por el Ministerio de Transporte autoriza a un vehículo automotor de carga para que realice el transporte de sustancias catalogadas de uso restringido por la Dirección Nacional de Estupefacientes, ya que se utilizan como precursores químicos para la producción de narcóticos. Esta planilla la solicitará el representante legal del propietario de la sustancia, cumpliendo los requisitos establecidos en la normatividad anteriormente mencionada (ver marco legal).
         
         .row(titulo="Remesa terrestre de carga")
           .col-12.mb-4.mb-md-0
@@ -239,7 +245,7 @@
         
         .row(titulo="Tarjeta de emergencia")
           .col-12.mb-4.mb-md-0
-            p es el documento que contiene información básica sobre la identificación del material peligroso y datos del fabricante, identificación de peligros, protección personal y control de exposición, medidas de primeros auxilios, medidas para la extinción de incendios, medidas para el vertimiento accidental, estabilidad y reactividad e información sobre el transporte. Este documento es de porte obligatorio para el conductor que transporta mercancías peligrosas; para su elaboración se debe tener en cuenta los parámetros establecidos en la Norma Técnica Colombiana NTC 4532. Se consideran dos usos principales de las tarjetas de emergencia para el transporte de materiales.
+            p Es el documento que contiene información básica sobre la identificación del material peligroso y datos del fabricante, identificación de peligros, protección personal y control de exposición, medidas de primeros auxilios, medidas para la extinción de incendios, medidas para el vertimiento accidental, estabilidad y reactividad e información sobre el transporte. Este documento es de porte obligatorio para el conductor que transporta mercancías peligrosas; para su elaboración se debe tener en cuenta los parámetros establecidos en la Norma Técnica Colombiana NTC 4532. Se consideran dos usos principales de las tarjetas de emergencia para el transporte de materiales.
         
       img.col-xl-5.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto(src='@/assets/curso/temas/tema8/img-14.png' style="max-width: 505px")
 
@@ -291,7 +297,7 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta")
       .row(titulo="Plan nacional de contingencias")
         .col-12.mb-4.mb-md-0
-          p las exigencias del Decreto 1609 son precisas y demandantes, este se debe acoplar con el PNC (Plan Nacional de Contingencias), de acuerdo con el Artículo 8 del Decreto 321 de 1999: los lineamientos, principios, facultades y organizaciones establecidos en el PNC deberán ser incorporados en los planes de contingencias de todas las personas naturales y jurídicas, públicas o privadas, que exploren, investiguen, exploten, produzcan, almacenen, transporten, comercialicen o efectúen cualquier manejo de hidrocarburos, derivados o sustancias nocivas, o que tengan bajo su responsabilidad el control y prevención de los derrames en aguas marinas, fluviales o lacustres. Dentro de las premisas básicas del PNC está la acción participativa, en la que se establecen las responsabilidades y los compromisos de orden sectorial, local, regional y nacional para las autoridades e industria, que debe manejarse con los criterios de participación y concertación. Se debe contar con planes de contingencia locales o de ayuda para enfrentar el máximo nivel de riesgo probable. Los comités locales y regionales para la prevención y la atención de desastres apoyarán complementariamente las actividades de respuesta, previstas en ellos.
+          p Las exigencias del Decreto 1609 son precisas y demandantes, este se debe acoplar con el PNC (Plan Nacional de Contingencias), de acuerdo con el Artículo 8 del Decreto 321 de 1999: los lineamientos, principios, facultades y organizaciones establecidos en el PNC deberán ser incorporados en los planes de contingencias de todas las personas naturales y jurídicas, públicas o privadas, que exploren, investiguen, exploten, produzcan, almacenen, transporten, comercialicen o efectúen cualquier manejo de hidrocarburos, derivados o sustancias nocivas, o que tengan bajo su responsabilidad el control y prevención de los derrames en aguas marinas, fluviales o lacustres. Dentro de las premisas básicas del PNC está la acción participativa, en la que se establecen las responsabilidades y los compromisos de orden sectorial, local, regional y nacional para las autoridades e industria, que debe manejarse con los criterios de participación y concertación. Se debe contar con planes de contingencia locales o de ayuda para enfrentar el máximo nivel de riesgo probable. Los comités locales y regionales para la prevención y la atención de desastres apoyarán complementariamente las actividades de respuesta, previstas en ellos.
       
       .row(titulo="Requisitos generales para el transporte por carretera de mercancías peligrosas")
         .col-12.mb-4.mb-md-0
@@ -341,6 +347,8 @@
         br
         br
         |#[b En Colombia se pueden adquirir los kit para los derrames en carretera y contienen los implementos básicos necesarios hasta para retener 90 galones.]
+    .d-flex
+      p.mb-5.px-4.py-2.w-100(style="background-color: #E8E8E8;") Nota. Tomado de ARL SURA en #[a(href="https://www.arlsura.com/pag_serlinea/distribuidores/doc/documentacion/transporte_quimico.pdf" target="_blank") https://www.arlsura.com/pag_serlinea/distribuidores/doc/documentacion/transporte_quimico.pdf]
 </template>
 
 <script>

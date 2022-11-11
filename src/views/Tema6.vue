@@ -19,7 +19,7 @@
     .d-flex.flex-wrap.align-items-center.mb-5
       .col-lg-7.col-xl-8.order-2.order-lg-1.pe-lg-4
         .tarjeta.p-4(style="background-color: #FFF5C5")
-          p.mb-4 identifica el vehículo como legal, acredita la propiedad y lo autoriza para transitar por todo el territorio colombiano. #[b Contiene la siguiente información:]
+          p.mb-4 Identifica el vehículo como legal, acredita la propiedad y lo autoriza para transitar por todo el territorio colombiano. #[b Contiene la siguiente información:]
           .d-flex.flex-wrap
             .col-lg-6
               ul.lista-ul.mb-lg-2
@@ -130,13 +130,13 @@
         p.fw-bold.mb-0.text-center.p-4.px-lg-5(style="background-color: #FBAB42;") Seguro Obligatorio de Accidentes de
           br
           |Tránsito (SOAT)
-        p.p-4.mb-0(style="background-color: #FFF5C5;") A través de este seguro se ampara los daños a personas que se causen en accidentes de tránsito, cubriendo servicios médicos hasta un máximo de 500 veces el salario mínimo legal diario vigente (SMLV). Para gastos de transporte y movilización de la víctima cubre hasta un máximo de 10 veces el salario mínimo legal diario vigente.
+        p.p-4.mb-0(style="background-color: #FFF5C5; min-height: 216px") A través de este seguro se ampara los daños a personas que se causen en accidentes de tránsito, cubriendo servicios médicos hasta un máximo de 500 veces el salario mínimo legal diario vigente (SMLV). Para gastos de transporte y movilización de la víctima cubre hasta un máximo de 10 veces el salario mínimo legal diario vigente.
       .col-lg-6.px-2
         img.mb-1(src="@/assets/curso/temas/tema6/img-3.jpg")
         p.fw-bold.mb-0.text-center.p-4.px-lg-5(style="background-color: #FBAB42;") Certificado de revisión técnico-mecánica
           br
           |y de gases
-        p.p-4.mb-0(style="background-color: #FFF5C5;") A través de este seguro se ampara los daños a personas que se causen en accidentes de tránsito, cubriendo servicios médicos hasta un máximo de 500 veces el salario mínimo legal diario vigente (SMLV). Para gastos de transporte y movilización de la víctima cubre hasta un máximo de 10 veces el salario mínimo legal diario vigente.
+        p.p-4.mb-0(style="background-color: #FFF5C5; min-height: 216px") Este aplica para todos los vehículos y certifica que se encuentran en buenas condiciones, garantizando la seguridad vial a todos los actores viales.
 
     p.fw-bold Los documentos obligatorios que deben portar los conductores que transporten carga son: 
 
@@ -200,7 +200,7 @@
         <svg style="max-width: 14px; margin-right: .5rem; margin-top: .3rem;" xmlns="http://www.w3.org/2000/svg" width="13.088" height="9.816" viewBox="0 0 13.088 9.816">
           <path id="comprobado" d="M0,69.769l4.482,4.49,8.606-8.6-1.236-1.218L4.482,71.8,1.218,68.542Z" transform="translate(0 -64.443)" fill="#f88f05"/>
         </svg>
-        | Seguros
+        | Seguros.
 
     p.fw-bold.mb-5 A continuación se presenta otra información útil para diligenciar el formato de manifiesto de carga.
 
@@ -209,7 +209,7 @@
         .tarjeta.p-4.d-flex.flex-wrap.h-100(style="background-color: #DEE4F0")
           div
             img.mx-auto.mb-3(src='@/assets/curso/temas/tema6/img-5.png' style="max-width: 297px")
-            p.text-center.fw-bold Remesa Terrestre de Carga
+            p.text-center.fw-bold Remesa terrestre de carga
             p.mb-0 En este documento el cliente o destinatario deja constancia del recibido de la mercancía, con la opción de anotar observaciones sobre el estado en el que llega la carga, ya sean daños o faltantes y debe contar con la firma y sello del cliente. 
       .col-lg-6.col-xl-4.px-2.mb-4
         .tarjeta.p-4.d-flex.flex-wrap.h-100(style="background-color: #DEE4F0")
@@ -293,7 +293,7 @@
     p.fw-bold.mb-5 De acuerdo con la normativa de las secretarías de movilidad: 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/uRE3R4bbQFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-5.pb-5 Respecto a la vigencia de la revisión técnico mecánica:
     

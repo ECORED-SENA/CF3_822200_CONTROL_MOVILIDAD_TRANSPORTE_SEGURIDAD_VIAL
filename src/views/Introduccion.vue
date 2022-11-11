@@ -15,7 +15,7 @@
     
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/tEyYOSGOyek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.p-3.p-md-4(style="background-color: #FFF5C5") De manera que toda la información debe procesarse, por esto se revisarán las Tecnologías de la Información y la Comunicación junto con sus fundamentos, además de los tipos de equipos de comunicación, tipos y bases de datos, en momentos en que la tecnología y la información es totalmente digital, así mismo, se revisarán herramientas para definir características de la geografía de las rutas de transporte y del plan de rutas.
 </template>
 

@@ -13,7 +13,7 @@
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
         img(src='@/assets/curso/temas/tema1/icon-titulo.svg' style="max-width: 32px; margin-left: -16px;" data-aos="fade-right")
         h4.col.ps-3.mb-0.text-white(data-aos="fade-right") Envase:
-    p.mb-5.col-xl-8 es el material que está en contacto con el producto, su fin es contener dentro de sí el producto en cualquier estado para facilitar el proceso de transporte y que sea fácil y seguro.
+    p.mb-5.col-xl-8 Es el material que está en contacto con el producto, su fin es contener dentro de sí el producto en cualquier estado para facilitar el proceso de transporte y que sea fácil y seguro.
 
     .col-12.col-xl-10.mx-auto.d-flex.flex-wrap.align-items-stretch.mb-5
       .col-lg-4.px-2.mb-4.mx-auto
@@ -21,26 +21,26 @@
           div
             img.mx-auto.mb-3(src='@/assets/curso/temas/tema7/img-1.png' style="max-width: 248px")
             p.fw-bold Envase primario:
-            p.mb-0 llamado contenedor interior, tiene el contacto con el producto y/o facilita su consumo.
+            p.mb-0 Llamado contenedor interior, tiene el contacto con el producto y/o facilita su consumo.
       .col-lg-4.px-2.mb-4
         .tarjeta.p-4.d-flex.flex-wrap.h-100(style="background-color: #F3F9FF")
           div
             img.mx-auto.mb-3(src='@/assets/curso/temas/tema7/img-2.png' style="max-width: 248px")
             p.fw-bold Envase secundario:
-            p.mb-0 es un contenedor unitario y en su interior se encuentran uno o varios envases primarios.
+            p.mb-0 Es un contenedor unitario y en su interior se encuentran uno o varios envases primarios.
       .col-lg-4.px-2.mb-4
         .tarjeta.p-4.d-flex.flex-wrap.h-100(style="background-color: #F3F9FF")
           div
             img.mx-auto.mb-3(src='@/assets/curso/temas/tema7/img-3.png' style="max-width: 248px")
             p.fw-bold Envase terciario:
-            p.mb-0 permite distribuir, unificar y proteger el producto para su posterior distribución.
+            p.mb-0 Permite distribuir, unificar y proteger el producto para su posterior distribución.
     
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
         img(src='@/assets/curso/temas/tema1/icon-titulo.svg' style="max-width: 32px; margin-left: -16px;" data-aos="fade-right")
-        h4.col.ps-3.mb-0.text-white(data-aos="fade-right") Embalaje
+        h4.col.ps-3.mb-0.text-white(data-aos="fade-right") Embalaje:
     
-    p.mb-5.col-xl-8 es el material que recubre y protege los productos para preservar sus características durante la manipulación, el almacenamiento y el traslado. Ver tabla.
+    p.mb-5.col-xl-8 Es el material que recubre y protege los productos para preservar sus características durante la manipulación, el almacenamiento y el traslado. Ver tabla.
 
     .titulo-sexto.color-acento-contenido
       h5 Tabla 3.
@@ -85,7 +85,7 @@
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
         img(src='@/assets/curso/temas/tema1/icon-titulo.svg' style="max-width: 32px; margin-left: -16px;" data-aos="fade-right")
         h4.col.ps-3.mb-0.text-white(data-aos="fade-right") Clasificación de las cargas:
-    p.mb-5 están clasificadas en 2 grandes tipos, carga general y carga a granel.
+    p.mb-5 Están clasificadas en 2 grandes tipos, carga general y carga a granel.
 
     .col-xl-10.mx-auto.d-flex.flex-wrap.justify-content-center.align-items-center.mb-5
       .col-lg-6.px-2.mb-3

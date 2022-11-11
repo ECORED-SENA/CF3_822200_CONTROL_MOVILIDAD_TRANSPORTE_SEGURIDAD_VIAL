@@ -28,8 +28,8 @@
       SlyderA(tipo="b")
         .row.flex-wrap.col-xl-11.mx-auto
           .col-lg-6.mb-4.mb-md-0.pt-3.order-2.order-lg-1
-            h4 Luces Conducción Diurna
-            p No deben confundirse con las luces cortas, las luces de conducción diurna están diseñadas para hacer el vehiculó más visible a otros conductores. Suelen ser luces en la parte delantera y trasera de tu auto que pueden encenderse de forma automática cuando enciendes el motor.
+            h4 Luces conducción diurna
+            p No deben confundirse con las luces cortas, las luces de conducción diurna están diseñadas para hacer el vehículo más visible a otros conductores. Suelen ser luces en la parte delantera y trasera de tu auto que pueden encenderse de forma automática cuando enciendes el motor.
           .col-lg-6.order-1.order-lg-2.mb-4.mb-lg-0
             figure
               img.mx-auto(src='@/assets/curso/temas/tema3/img-2.png' style="max-width: 537px")
@@ -61,7 +61,7 @@
         .row.flex-wrap.col-xl-11.mx-auto
           .col-lg-6.mb-4.mb-md-0.pt-3.order-2.order-lg-1
             h4 Luces traseras
-            p Las luces traseras son las luces rojas en la parte trasera del vehículo que se encienden de manera sistemática cuando tus las luces delanteras están encendidas. Les permite saber a los conductores que vienen detrás que el vehículo está allí y qué tan lejos está.
+            p Las luces traseras son las luces rojas en la parte trasera del vehículo que se encienden de manera sistemática cuando las luces delanteras están encendidas. Les permite saber a los conductores que vienen detrás que el vehículo está allí y qué tan lejos está.
           .col-lg-6.order-1.order-lg-2.mb-4.mb-lg-0
             figure
               img.mx-auto(src='@/assets/curso/temas/tema3/img-6.png' style="max-width: 537px")

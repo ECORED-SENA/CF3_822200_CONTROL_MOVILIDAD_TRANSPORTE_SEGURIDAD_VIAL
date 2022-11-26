@@ -17,12 +17,12 @@
         p.w-100.p-4.mb-0(style="background-color: #FBAB42") Técnicas activas:
         p.d-flex.p-4.mb-0(style="min-height: 224px; background-color: #FFF5C5") Se basan en la planeación y la prevención antes de los accidentes, identificando peligros y evaluando los riesgos, apoyados en inspecciones, en las cuales se analizan los recursos y los procesos para evaluar todos los riesgos.
       
-      .col-lg-4.px-lg-2.col-md-6.pe-md-1.mb-4
+      .col-lg-4.px-lg-2.col-md-8.pe-md-1.mb-4.mx-auto
         img.mb-4.mx-auto(src='@/assets/curso/temas/tema10/img-2.svg' style="max-width: 141px")
         p.w-100.p-4.mb-0(style="background-color: #FBAB42") Técnicas reactivas:
         p.d-flex.p-4.mb-0(style="min-height: 224px; background-color: #FFF5C5") Se producen una vez ocurre el accidente, determina causas para implementar controles, en esto es muy importante la investigación de los accidentes y la estadística.
       
-      .col-lg-4.px-lg-2.col-md-6.ps-md-1.mb-4
+      .col-lg-4.px-lg-2.col-md-8.ps-md-1.mb-4.mx-auto
         img.mb-4.mx-auto(src='@/assets/curso/temas/tema10/img-3.svg' style="max-width: 141px")
         p.w-100.p-4.mb-0(style="background-color: #FBAB42") Técnicas complementarias:
         p.d-flex.p-4.mb-0(style="min-height: 224px; background-color: #FFF5C5") Basados en la normatividad y la señalización, eliminando aspectos que afecten la seguridad y la salud.

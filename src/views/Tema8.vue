@@ -99,7 +99,8 @@
 
     .position-relative.col-xl-10.mx-auto.mb-5
       img(src="@/assets/curso/temas/tema8/img-4.png")
-      .container-card-hover.container-card-hover-1
+      .container-card-hover.container-card-hover-1(@mouseover="indicadorTarjeta = false")
+        .indicador--hover(v-if="indicadorTarjeta")
         .card-left-edit.p-4
           p.mb-0 Las etiquetas para los bultos no deben tener un tamaño menor de 100 mm x 100 mm.
       .container-card-hover.container-card-hover-2
@@ -252,43 +253,43 @@
     p.col-xl-10.mx-auto.p-4.p-lg-5.mb-5(style="background-color: #F3F9FF") Una herramienta de entrenamiento y referencia para los transportadores.  Un recurso para los procedimientos de emergencia. #[b Los títulos y el orden específico de una tarjeta de emergencia para el transporte de mercancías peligrosas son:]
 
     .d-flex.flex-wrap.align-items-stretch.mb-5
-      .col-md-6.col-lg-4.col-xl-3.px-2.mb-3
+      .col-12.col-md-6.col-lg-4.col-xl-3.px-2.mb-3
         .tarjeta.p-3.d-flex.flex-wrap.h-100(style="background-color: #FFF5C5")
           .d-flex.flex-wrap.mb-auto.justify-content-center.w-100
             img.me-auto.mb-3(src='@/assets/curso/temas/tema8/t-1.svg' style="max-width: 85px;")
             p.w-100.mb-0 #[b Sección 1:] identificación del producto químico y de la compañía.
       
-      .col-md-6.col-lg-4.col-xl-3.px-2.mb-3
+      .col-12.col-md-6.col-lg-4.col-xl-3.px-2.mb-3
         .tarjeta.p-3.d-flex.flex-wrap.h-100(style="background-color: #FFF5C5")
           .d-flex.flex-wrap.mb-auto.justify-content-center.w-100
             img.me-auto.mb-3(src='@/assets/curso/temas/tema8/t-2.svg' style="max-width: 85px;")
             p.w-100.mb-0 #[b Sección 2:] identificación de peligros.
       
-      .col-md-6.col-lg-4.col-xl-3.px-2.mb-3
+      .col-12.col-md-6.col-lg-4.col-xl-3.px-2.mb-3
         .tarjeta.p-3.d-flex.flex-wrap.h-100(style="background-color: #FFF5C5")
           .d-flex.flex-wrap.mb-auto.justify-content-center.w-100
             img.me-auto.mb-3(src='@/assets/curso/temas/tema8/t-3.svg' style="max-width: 85px;")
             p.w-100.mb-0 #[b Sección 3:] controles de exposición y protección personal.
       
-      .col-md-6.col-lg-4.col-xl-3.px-2.mb-3
+      .col-12.col-md-6.col-lg-4.col-xl-3.px-2.mb-3
         .tarjeta.p-3.d-flex.flex-wrap.h-100(style="background-color: #FFF5C5")
           .d-flex.flex-wrap.mb-auto.justify-content-center.w-100
             img.me-auto.mb-3(src='@/assets/curso/temas/tema8/t-4.svg' style="max-width: 85px;")
             p.w-100.mb-0 #[b Sección 4:] estabilidad y reactividad.
       
-      .col-md-6.col-lg-4.col-xl-3.px-2.mb-3
+      .col-12.col-md-6.col-lg-4.col-xl-3.px-2.mb-3
         .tarjeta.p-3.d-flex.flex-wrap.h-100(style="background-color: #FFF5C5")
           .d-flex.flex-wrap.mb-auto.justify-content-center.w-100
             img.me-auto.mb-3(src='@/assets/curso/temas/tema8/t-5.svg' style="max-width: 85px;")
             p.w-100.mb-0 #[b Sección 5:] medidas de primeros auxilios.
       
-      .col-md-6.col-lg-4.col-xl-3.px-2.mb-3
+      .col-12.col-md-6.col-lg-4.col-xl-3.px-2.mb-3
         .tarjeta.p-3.d-flex.flex-wrap.h-100(style="background-color: #FFF5C5")
           .d-flex.flex-wrap.mb-auto.justify-content-center.w-100
             img.me-auto.mb-3(src='@/assets/curso/temas/tema8/t-6.svg' style="max-width: 85px;")
             p.w-100.mb-0 #[b Sección 6:] medidas para extinción de incendios.
       
-      .col-md-6.col-lg-4.col-xl-3.px-2.mb-3
+      .col-12.col-md-6.col-lg-4.col-xl-3.px-2.mb-3
         .tarjeta.p-3.d-flex.flex-wrap.h-100(style="background-color: #FFF5C5")
           .d-flex.flex-wrap.mb-auto.justify-content-center.w-100
             img.me-auto.mb-3(src='@/assets/curso/temas/tema8/t-7.svg' style="max-width: 85px;")
@@ -355,7 +356,7 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    indicadorTarjeta: true,
   }),
   mounted() {
     this.$nextTick(() => {

@@ -77,42 +77,42 @@
       .tarjeta.w-100.p-4(style="background-color: #FFF5C5")
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/sl1-1.png')
+            img(src='@/assets/curso/temas/tema2/sl2-1.png')
         h4.text-center Círculo con líneas a los lados
         p Este dibujo informa al piloto sobre el desgaste de las pastillas de freno.
       
       .tarjeta.w-100.p-4(style="background-color: #FFF5C5")
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/sl1-2.png')
+            img(src='@/assets/curso/temas/tema2/sl2-2.png')
         h4.text-center Motor
         p Este testigo encendido muestra que hay una falla en el motor.
       
       .tarjeta.w-100.p-4(style="background-color: #FFF5C5")
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/sl1-3.png')
+            img(src='@/assets/curso/temas/tema2/sl2-3.png')
         h4.text-center Círculo con las letras ABS en el interior
         p Anuncia un fallo en el sistema de frenos ABS.
       
       .tarjeta.w-100.p-4(style="background-color: #FFF5C5")
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/sl1-4.png')
+            img(src='@/assets/curso/temas/tema2/sl2-4.png')
         h4.text-center Individuo sentado con un círculo en frente
         p Este testigo informa sobre el fallo en o desconexión de alguna de las bolsas de aire (Air bag) del vehículo.
       
       .tarjeta.w-100.p-4(style="background-color: #FFF5C5")
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/sl1-5.png')
+            img(src='@/assets/curso/temas/tema2/sl2-5.png')
         h4.text-center Dispensador de gasolina
         p Informa sobre el nivel bajo de la gasolina en el vehículo.
       
       .tarjeta.w-100.p-4(style="background-color: #FFF5C5")
         .row.justify-content-center.mb-3
           .col-8
-            img(src='@/assets/curso/temas/tema2/sl1-6.png')
+            img(src='@/assets/curso/temas/tema2/sl2-6.png')
         h4.text-center Vidrio con líneas punteadas
         p Avisa que el nivel del tanque del limpiaparabrisas está bajo y debe llenarse.
 

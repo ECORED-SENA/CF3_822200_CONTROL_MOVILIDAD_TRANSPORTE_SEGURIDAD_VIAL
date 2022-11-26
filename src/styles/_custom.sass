@@ -28,6 +28,10 @@
 .banner-principal
   .tarjeta.container
     background-position: left
+    @media (max-width: 1200px)
+      background-position: center
+    @media (max-width: 991px)
+      background-position: left
   .banner-principal__componente h1, .banner-principal__descripcion p
     color: black    
   .banner-principal__row, .banner-principal__img
@@ -36,6 +40,13 @@
   color: black !important
 .banner-interno__fondo
   background-image: url('../assets/curso/portada/bg-header.svg') !important
+.banner-interno__titulo
+  .banner-interno__titulo__icono
+    background-color: black
+    i
+      color: #FFD817 !important
+  h2
+    color: black !important
 .slyder-a
   .slyder-a__tipo-b
     .slyder-a__bullets

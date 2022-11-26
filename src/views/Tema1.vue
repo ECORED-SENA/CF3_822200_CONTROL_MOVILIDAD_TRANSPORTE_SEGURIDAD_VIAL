@@ -101,7 +101,7 @@
               img.mx-auto(src='@/assets/curso/temas/tema1/img-10.png' style="max-width: 537px")
     p.mb-5 Dentro del sistema de componentes del vehículo se destaca en el sistema motor una clasificación de acuerdo con el trabajo que realizan, si es por energía calórica (motor térmico) o por energía eléctrica (motor eléctrico) y una vez definida esta condición se clasifican como se muestra a continuación:
 
-    h4 Clasificación de los motores
+    h4.mb-5.text-center Clasificación de los motores
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.p-4(style="background-color: #FFF5C5")

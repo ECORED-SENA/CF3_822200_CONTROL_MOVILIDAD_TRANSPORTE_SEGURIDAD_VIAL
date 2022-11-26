@@ -138,7 +138,7 @@
           |y de gases
         p.p-4.mb-0(style="background-color: #FFF5C5; min-height: 216px") Este aplica para todos los vehículos y certifica que se encuentran en buenas condiciones, garantizando la seguridad vial a todos los actores viales.
 
-    p.fw-bold Los documentos obligatorios que deben portar los conductores que transporten carga son: 
+    p.mb-5.fw-bold Los documentos obligatorios que deben portar los conductores que transporten carga son: 
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")

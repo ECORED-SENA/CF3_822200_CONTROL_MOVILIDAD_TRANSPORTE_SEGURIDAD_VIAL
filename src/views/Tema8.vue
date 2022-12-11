@@ -234,7 +234,7 @@
         
         .row(titulo="Planilla para el transporte de sustancias de uso restringido")
           .col-12.mb-4.mb-md-0
-            p Creada mediante la Resolución 4093 de diciembre de 1991 y la Resolución 3700 de 2001, este documento expedido por el Ministerio de Transporte autoriza a un vehículo automotor de carga para que realice el transporte de sustancias catalogadas de uso restringido por la Dirección Nacional de Estupefacientes, ya que se utilizan como precursores químicos para la producción de narcóticos. Esta planilla la solicitará el representante legal del propietario de la sustancia, cumpliendo los requisitos establecidos en la normatividad anteriormente mencionada (ver marco legal).
+            p Creada mediante la Resolución 4093 de diciembre de 1991 y la Resolución 3700 de 2001, este documento expedido por el Ministerio de Transporte autoriza a un vehículo automotor de carga para que realice el transporte de sustancias catalogadas de uso restringido por la Dirección Nacional de Estupefacientes, ya que se utilizan como precursores químicos para la producción de narcóticos. Esta planilla la solicitará el representante legal del propietario de la sustancia, cumpliendo los requisitos establecidos en la normatividad anteriormente mencionada (#[a(href="" target="_blank") ver marco legal]).
         
         .row(titulo="Remesa terrestre de carga")
           .col-12.mb-4.mb-md-0
@@ -337,7 +337,7 @@
       
       .row(titulo="<em>Kit</em> de emergencia")
         .col-12.mb-4.mb-md-0
-          p como se anotó anteriormente, la legislación exige que todos los vehículos que transporten materiales peligrosos deben dotarse de los elementos necesarios que permitan atender un derrame. Este #[em kit] puede constar de material absorbente, pala no metálica, diques de contención (los cuales pueden construirse con los absorbentes), un recipiente para recolectar el desecho y cinta demarcadora para aislar la zona del derrame. Algunas empresas transportadoras utilizan tela asfáltica para evitar que el material derramado sobre la grama se absorba.
+          p Como se anotó anteriormente, la legislación exige que todos los vehículos que transporten materiales peligrosos deben dotarse de los elementos necesarios que permitan atender un derrame. Este #[em kit] puede constar de material absorbente, pala no metálica, diques de contención (los cuales pueden construirse con los absorbentes), un recipiente para recolectar el desecho y cinta demarcadora para aislar la zona del derrame. Algunas empresas transportadoras utilizan tela asfáltica para evitar que el material derramado sobre la grama se absorba.
     
     .d-flex.flex-wrap.align-items-center
       img.mb-4.mb-xl-0.col-xl-5.mx-auto(src='@/assets/curso/temas/tema8/img-15.png' style="max-width: 505px;")

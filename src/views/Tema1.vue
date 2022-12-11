@@ -129,14 +129,14 @@
         .row.justify-content-center.mb-3
           .col-11
             img(src='@/assets/curso/temas/tema1/sl-4.png')
-        h4.text-center Motores de GLP (gas licuado de petróleo)
+        h4.text-center Motores de GLP (Gas Licuado de Petróleo)
         p La combustión se logra por la inflamación de combustibles alternativos.
       
       .tarjeta.p-4(style="background-color: #FFF5C5")
         .row.justify-content-center.mb-3
           .col-11
             img(src='@/assets/curso/temas/tema1/sl-5.png')
-        h4.text-center GNC (gas natural comprimido)
+        h4.text-center GNC (Gas Natural Comprimido)
         p La combustión se logra por la inflamación de combustibles alternativos.
       
       .tarjeta.p-4(style="background-color: #FFF5C5")

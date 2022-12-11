@@ -100,7 +100,7 @@
           .col-8
             img(src='@/assets/curso/temas/tema2/sl2-4.png')
         h4.text-center Individuo sentado con un círculo en frente
-        p Este testigo informa sobre el fallo en o desconexión de alguna de las bolsas de aire (Air bag) del vehículo.
+        p Este testigo informa sobre el fallo en o desconexión de alguna de las bolsas de aire (#[em Airbag]) del vehículo.
       
       .tarjeta.w-100.p-4(style="background-color: #FFF5C5")
         .row.justify-content-center.mb-3

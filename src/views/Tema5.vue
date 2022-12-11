@@ -38,7 +38,7 @@
       .tarjeta.w-100.p-3(style="background-color: #FFF5C5")
         .row.justify-content-center.mb-3
           img(src='@/assets/curso/temas/tema5/img-6.png')
-        h4.text-center 6. Tacos para vehiculos
+        h4.text-center 6. Tacos para vehículos
       
       .tarjeta.w-100.p-3(style="background-color: #FFF5C5")
         .row.justify-content-center.mb-3

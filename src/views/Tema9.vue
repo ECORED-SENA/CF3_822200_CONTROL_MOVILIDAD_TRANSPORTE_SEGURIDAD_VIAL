@@ -166,7 +166,7 @@
           tr
             td.px-5 #[b Versatilidad]
               br
-              |El transporte por carretera permite un acceso más rápido a las instalaciones de los despachadores, embarcadores o   destinatarios,   agilizando   y facilitando el cargue y el descargue, por ende,  la  entrega segura de lamercancía.
+              |El transporte por carretera permite un acceso más rápido a las instalaciones de los despachadores, embarcadores o   destinatarios,   agilizando   y facilitando el cargue y el descargue, por ende,  la  entrega segura de la mercancía.
 
             td.px-5 #[b Capacidad]
               br
@@ -245,7 +245,7 @@
               |Dadas las grandes dimensiones y el número de transbordos es muy común que se presenten robos.
 
           tr(style="background-color: #E8E8E8")
-            td.px-5 #[b Documentación]
+            td.px-5 #[b Documentación] 
               |No difiere tanto de la empleada para el transporte de carretera.
 
             td.px-5

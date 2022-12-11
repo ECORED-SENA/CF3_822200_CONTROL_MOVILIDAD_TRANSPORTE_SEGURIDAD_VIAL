@@ -89,7 +89,7 @@
 
     .col-xl-10.mx-auto.d-flex.flex-wrap.justify-content-center.align-items-center.mb-5
       .col-lg-6.px-2.mb-3
-        .tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false" style="aspect-ratio: 50/46; max-width: 494px;")
+        .tarjeta-flip.color-primario.tarjeta-flip-edit(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema7/img-4.jpg')})`}")
@@ -102,8 +102,7 @@
                 |#[b Carga unitarizada:] la carga va agrupada en paquetes de mayor volumen, en estibas o contenedores.
         h4.p-4.text-center(style="background-color: #FFD817") Carga general
       .col-lg-6.px-2.mb-3
-        .tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false" style="aspect-ratio: 50/46; max-width: 494px;")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
+        .tarjeta-flip.color-primario.tarjeta-flip-edit
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema7/img-5.jpg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5(style="background-color: #FFF5C5")
@@ -174,4 +173,10 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.tarjeta-flip-edit
+  aspect-ratio: 50/46
+  max-width: 494px
+  @media (max-width: 1400px)
+    aspect-ratio: auto
+</style>

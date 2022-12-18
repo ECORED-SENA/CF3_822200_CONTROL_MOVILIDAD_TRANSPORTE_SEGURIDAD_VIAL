@@ -14,7 +14,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema8/img-1.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4.p-lg-5
-        p.mb-0 #[b Clasificación de las mercancías peligrosas:] se realiza de acuerdo con el riesgo que presentan y se toma de la Norma Técnica Colombiana NTC 1692 Transporte de mercancías peligrosas. Clasificación, etiquetado y rotulado, los pictogramas que identifican las anteriores clasificaciones de peligro se ilustran a continuación:
+        p.mb-0 #[b Clasificación de las mercancías peligrosas:] se realiza de acuerdo con el riesgo que presentan y se toma de la Norma Técnica Colombiana NTC 1692 Transporte de mercancías peligrosas. Clasificación, etiquetado y rotulado, los pictogramas que identifican las anteriores clasificaciones de peligro.
     
     p.mb-5 La correcta identificación de los materiales a transportar permite no solo tomar las precauciones apropiadas en su manipulación y transporte, y ante una emergencia proceder de manera apropiada o sencillamente abstenerse de hacerlo al considerar su vida en riesgo. Las mercancías peligrosas se clasifican en las clases, las divisiones, las subdivisiones y los grupos de compatibilidad que se muestran a continuación. 
 
@@ -234,7 +234,7 @@
         
         .row(titulo="Planilla para el transporte de sustancias de uso restringido")
           .col-12.mb-4.mb-md-0
-            p Creada mediante la Resolución 4093 de diciembre de 1991 y la Resolución 3700 de 2001, este documento expedido por el Ministerio de Transporte autoriza a un vehículo automotor de carga para que realice el transporte de sustancias catalogadas de uso restringido por la Dirección Nacional de Estupefacientes, ya que se utilizan como precursores químicos para la producción de narcóticos. Esta planilla la solicitará el representante legal del propietario de la sustancia, cumpliendo los requisitos establecidos en la normatividad anteriormente mencionada (#[a(href="" target="_blank") ver marco legal]).
+            p Creada mediante la Resolución 4093 de diciembre de 1991 y la Resolución 3700 de 2001, este documento expedido por el Ministerio de Transporte autoriza a un vehículo automotor de carga para que realice el transporte de sustancias catalogadas de uso restringido por la Dirección Nacional de Estupefacientes, ya que se utilizan como precursores químicos para la producción de narcóticos. Esta planilla la solicitará el representante legal del propietario de la sustancia, cumpliendo los requisitos establecidos en la normatividad anteriormente mencionada.
         
         .row(titulo="Remesa terrestre de carga")
           .col-12.mb-4.mb-md-0
